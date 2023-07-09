@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.nav {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+}
+
+select {
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.whole1 p {
+    margin-left: 10px;
+}
+
+.a {
+    margin-top: 14px;
+    margin-left: 8px;
+}
+
+.euro {
+    color: red;
+    margin-right: 10px;
+}
+
+.whole1 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+}
+
+.whole2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.nav1 {
+    display: flex;
+    margin-right: 400px;
+    cursor: pointer;
+}
+
+.whole2 p {
+    padding-top: 16px;
+    padding-left: 3px;
+    font-size: 15px;
+}
+
+.whole2 i {
+    padding: 10px;
+}
+
+.icon {
+    position: absolute;
+    left: 1000px;
+    margin-top: 20px;
+}
+
+.background-img {
+    position: relative;
+    width: 100%;
+    height: 500;
+}
+
+.img-word1 {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 260px;
+    left: 640px;
+    animation: slid;
+    animation-duration: 2s;
+}
+
+.img-word2 {
+    padding-left: 10px;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 270px;
+    left: 630px;
+    animation: slid;
+    animation-duration: 3s;
+}
+.img-word3 {
+    padding-left: 10px;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 350px;
+    left: 630px;
+    animation: slid;
+    animation-duration: 3s;
+}
+
+.whole3 button {
+    width: 120px;
+    height: 35px;
+    border-radius: 50px;
+    font-size: x-small;
+    border: 0.5px solid black;
+    margin-left: 10px;
+    font-weight: bold;
+    animation: slid;
+    animation-duration: 3s;
+    position: absolute;
+    top: 480px;
+    left: 650px;
+    cursor: pointer;
+
+}
+.whole3 button:hover{
+    background-color: rgb(234, 0, 255);
+    color: white;
+    border: none;
+}
+
+@keyframes slid {
+
+    0%,
+    50% {
+        transform: translatey(100%);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+
+}
+
+.whole4 h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.line {
+    padding-left: 10px;
+    padding-right: 15px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.line:hover {
+    color: black;
+    font-weight: bold;
+}
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.cloths {
+    width: 250px;
+    height: 350px;
+    padding-top: 20px;
+}
+
+.product {
+    margin-left: 20px;
+    position: relative;
+}
+.percent{
+    position: absolute;
+    top: 20px;
+    left: 190px;
+    color: rgb(253, 0, 186);
+}
+.new{
+    position: absolute;
+    top: 50px;
+    left: 190px;
+    color:  rgb(187, 0, 255);
+}
+.new1{
+    position: absolute;
+    top: 20px;
+    left: 190px;
+    color:  rgb(187, 0, 255);
+}
+.whole5 p{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size:small;
+}
+.product-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dummy{
+    margin-top: 25px;
+    margin-left: 5px;
+    width: 8px;
+    height: 2px;
+    background-color:rgb(137, 136, 136);
+}
+.discount {
+    text-decoration: line-through;
+    color: rgb(253, 0, 186);
+}
+.amount {
+    display: flex;
+}
+.whole5 {
+    display: flex;
+    justify-content: center;
+}
+.button{
+    width: 180px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    margin-left: 550px;
+    margin-top: 30px;
+}
+.button:hover{
+    background-color: rgb(234, 0, 255);
+}
+.banner{
+    position: relative;
+    width: 625px;
+    height: 200px;
+}
+.banner-men{
+    position: absolute;
+    top:20px;
+    left: 380px;
+}
+.banner-women{
+    position: absolute;
+    top:20px;
+    left:20px;
+}
+.banner-men i{
+    position: absolute;
+    top:130px;
+    left:180px;
+}
+.banner-women i{
+    position: absolute;
+    top:130px;
+    left:20px;
+}
+.whole6{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.deal{
+    margin-top: 150px;
+    margin-left: 30px;
+}
+.whole7 h1{
+    position: absolute;
+    top: 180px;
+    left: 770px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+.time{
+    margin-top: 180px;
+}
+.deal-time{
+    display: flex;
+    margin-left: 50px;
+    color: gray;
+}
+.deal-time div{
+    margin-left: 30px;
+}
+.deal-time p{
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+.deal-time span{
+    position: absolute;
+    top:360px;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size:x-large;
+}
+.whole7{
+    display: flex;
+    position: relative;
+}
+.whole7 button{
+    position: absolute;
+    right: 150px;
+    bottom: 200px;
+    width: 170px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(230, 5, 5);
+    color: white;
+    font-weight: bold;
+    margin-right: 100px;
+}
+.whole7 button:hover{
+    background-color: rgb(234, 0, 255);
+}
+.whole8{
+    margin-top: 100px;
+    position: relative;
+}
+.png{
+    width: 100%;
+}
+.png-words{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    text-align: center;
+    font-size: small;
+    top: 40px;
+}
+.png-word1{
+    width: 410px;
+    height: 80px;
+    background-color:lightblue;
+    margin-left: 10px;
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+.png-word2{
+    width: 410px;
+    height: 80px;
+    background-color:rgb(255, 252, 222);
+    margin-left: 10px;
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+.png-word3{
+    width: 410px;
+    height: 80px;
+    background-color:rgb(193, 255, 193);
+    margin-left: 10px;
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+.icon-png{
+    position: absolute;
+    bottom: 1px;
+    left: 300px;
+}
+.icon-png:hover{
+    animation: shake 0.5s;
+    animation-iteration-count:10s;
+}
+@keyframes shake{
+        0% { transform: translate(1px, 1px) rotate(0deg); }
+        10% { transform: translate(-1px, -2px) rotate(-1deg); }
+        20% { transform: translate(-3px, 0px) rotate(1deg); }
+        30% { transform: translate(3px, 2px) rotate(0deg); }
+        40% { transform: translate(1px, -1px) rotate(1deg); }
+        50% { transform: translate(-1px, 2px) rotate(-1deg); }
+        60% { transform: translate(-3px, 1px) rotate(0deg); }
+        70% { transform: translate(3px, 1px) rotate(-1deg); }
+        80% { transform: translate(-1px, -1px) rotate(1deg); }
+        90% { transform: translate(1px,2px) rotate(0deg);}
+}
+.whole9{
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+.whole9 h1{
+    font-size: 40px;
+}
+.whole9 input{
+    margin-top: 20px;
+    width: 320px;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 2px solid lightgrey;
+    padding-left: 200px;
+    padding-bottom: 10px;
+}
+.whole9 button{
+    margin-top: 30px;
+    width: 180px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(229, 1, 1);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.whole9 button:hover{
+    background-color: rgb(234, 0, 255);
+}
+.copy-bold{
+    font-weight: bold;
+}
+.last{
+    width: 100%;
+    height: 300px;
+    margin-top: 80px;
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.last input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 8px;
+    width: 250px;
+}
+
+
+
+
+
+
+
